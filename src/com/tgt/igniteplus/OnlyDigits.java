@@ -7,7 +7,7 @@ public class OnlyDigits {
         char [] t = s.toCharArray();
         for(int i =0;i<t.length;i++){
             int temp = t[i];
-            if(temp>=65){
+            if(temp>9){
                 return false;
             }
         }
